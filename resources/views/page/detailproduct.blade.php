@@ -281,7 +281,7 @@ img.emoji {
 		<div class="wpgs-for">
 			<div class="woocommerce-product-gallery__image single-product-main-image">
 				<a class="venobox"  title="13_large" data-gall="wpgs-lightbox" href="{{route('chi_tiet_san_pham',$sanpham->id)}}" >
-					<img width="480" height="480" src="/image/{{$sanpham->image}}" class="attachment-shop_single size-shop_single wp-post-image" alt="" srcset="/image/{{$sanpham->image}}" sizes="100vw" />
+					<img width="480" height="480" src="/image/products/{{$sanpham->image}}" class="attachment-shop_single size-shop_single wp-post-image" alt="" srcset="/image/products/{{$sanpham->image}}" sizes="100vw" />
 				</a>
 			</div>
 		</div>
@@ -479,7 +479,7 @@ img.emoji {
 					<div class="product-item">
 						<div class="product-img">
 							<a href="{{route('chi_tiet_san_pham', $sptt->id)}}">
-							<img width="260" height="260" src="/image/{{$sptt->image}}" sizes="100vw" />            </a>
+							<img width="260" height="260" src="/image/products/{{$sptt->image}}" sizes="100vw" />            </a>
 						</div>
 						<div class="product-info">
 							<div class="product-title">
